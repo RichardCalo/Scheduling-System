@@ -10,11 +10,22 @@ class:
 model Task
 {
     id as string
-    name as string
-    description as string
+    username as string
+    password as string
+    position as string
+    riderName as string
+    riderFBack as string
+    firstname as string
+    middlename as string
+    lastname as string
+    address as string
+    age as string
+    gender as string
+    contackNumber as string
     timeStampAdded as long
     timeStampLastUpdated as long
 }
+
 const TASK = "task"
 pvar db as MySQLDatabase
 
